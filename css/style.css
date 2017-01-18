@@ -1,3 +1,4 @@
+
 .main-color{color: #5dad92;}
 @media (min-width: 1200px) {
   .container {
@@ -23,12 +24,12 @@ body{font: 14px/150%   Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi M
 .navbar-toggle .icon-bar {background-color: #2f2f2f;}
 .navbar-toggle{margin-top: 15px;}
 .navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {background-color: #f9f9f9; border-color: #f9f9f9;}
-.navbar-right{font-size: 11px;}
+.navbar-right{font-size: 11px;margin-top: 15px;}
 .navbar-right .login{background-color: #5dad92;width: 64px;height: 24px;line-height: 24px;color: #fff;padding: 0; border-radius:20px}
-.navbar-right .search{width: 24px;height: 24px;background:  url(../img/bt-search.png) 0 0 no-repeat;border: none;}
+.navbar-right .search{width: 24px;height: 24px;background:  url(../img/bt-search.png) 0 0 no-repeat;border: none; margin: 0 0 0 10px}
 .navbar-right .search-txt{border: none;float: left;}
-
-
+.navbar-right .shopping-cart{width: 24px;height: 24px;background:  url(../img/bt-cart.png) 0 0 no-repeat;margin-right: 10px;}
+.navbar-right .line{height: 12px;border-left: 1px solid #e0e0e0;margin: 6px 15px 0 15px;}
 
 
 
