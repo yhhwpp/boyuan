@@ -1,1 +1,38 @@
-#topNav{border: 1px solid #000;}
+.main-color{color: #5dad92;}
+@media (min-width: 1200px) {
+  .container {
+      width: 1200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img{width: 120px;height: 50px;}
+}
+body{font: 14px/150%   Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;}
+#topNav{font-size: 12px;color: #a3a3a3;}
+#topNav a{color: #a3a3a3;padding: 0 8px;}
+#topNav a.active{color: #5dad92;}
+#topNav .tel{background:  url(../img/tel.png) left center no-repeat; padding-left: 15px}
+
+.navbar-collapse a{color: #5c5c5c;font-size: 16px;}
+.nav .active a,.nav>li>a:hover, .nav>li>a:focus{color: #5dad92;background-color: transparent;}
+.nav>li>a{padding-left:20px;padding-right:20px;}
+
+.navbar-collapse{margin-top: 30px;}
+.navbar-brand{padding-top: 0;}
+.navbar-toggle .icon-bar {background-color: #2f2f2f;}
+.navbar-toggle{margin-top: 15px;}
+.navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus {background-color: #f9f9f9; border-color: #f9f9f9;}
+.navbar-right{font-size: 11px;}
+.navbar-right .login{background-color: #5dad92;width: 64px;height: 24px;line-height: 24px;color: #fff;padding: 0; border-radius:20px}
+.navbar-right .search{width: 24px;height: 24px;background:  url(../img/bt-search.png) 0 0 no-repeat;border: none;}
+.navbar-right .search-txt{border: none;float: left;}
+
+
+
+
+
+
+
+
+
