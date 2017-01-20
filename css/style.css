@@ -6,6 +6,11 @@ body{font: 14px/150%   Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi M
 #topNav a{color: #a3a3a3;padding: 0 8px;}
 #topNav a.active{color: #5dad92;}
 #topNav .tel{background:  url(../img/tel.png) left center no-repeat; padding-left: 15px}
+@media (min-width: 1200px) {
+  .container {
+      width: 1200px;
+  }
+}
 
 .navbar-collapse a{color: #5c5c5c;font-size: 16px;}
 .nav .active a,.nav>li>a:hover, .nav>li>a:focus{color: #5dad92;background-color: transparent;}
@@ -26,21 +31,18 @@ body{font: 14px/150%   Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi M
 
 .navbar-nav{background-color: #fff;}
 .carousel{margin-top: 122px;}
+.main-nav{padding: 40px 160px;font-size: 24px;color: #a3a3a3}
+.main-nav img{padding-right: 14px;}
 
-@media (min-width: 1200px) {
-  .container {
-      width: 1200px;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar-nav{margin-top: 0;}
-  .navbar-collapse{margin-top: 0;}
-  .navbar-header{margin-top: 8px;}
-  .navbar-brand img{width: 120px;height: 50px;}
-  .carousel-indicators{bottom: 0;}
-  .carousel{margin-top:70px;}
-}
-
+.main-pinzhi{background-color: #5dad92;font-size: 24px;padding-left: 0;padding-right: 0;color: #fff;}
+.main-pinzhi img{display: block;width: 100%;}
+.main-pinzhi .col-xs-6,.main-pinzhi .col-xs-12{padding-left: 0;padding-right: 0;}
+.main-pinzhi .main-pinzhi-txt{padding: 60px;position: relative;}
+.main-pinzhi .main-pinzhi-txt p{padding: 5px;}
+.main-pinzhi h3{font-size: 36px;margin-top: 80px;text-align: right;}
+.main-title{color: #5c5c5c;font-size: 36px;border-bottom: 1px solid #5dad92;padding: 18px 0;padding-top: 50px;width: 160px;margin: 0 auto;text-align: center;}
+.main-pro > div{position: relative;}
+.main-pro img{display: block;width: 100%;position: absolute;left: 0;top: 0;}
+.main-pro .main-pro-txt{position: absolute;left: 0;top: 0;background: rgba(0, 0, 0, 0.4);}
 
 
