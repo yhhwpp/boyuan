@@ -25,4 +25,8 @@
   .main-jingxuan a.more{font-size: 12px;padding: 2px 0;}
   .main-dzh h2{font-size: 26px;padding: 10px 0 5px 0;}
   .main-dzh h3{font-size: 16px;}
+  .main-summary h1{font-size: 30px;}
+  .main-top-nav a{padding: 0 6px;}
+  .main-top-nav{text-align: center;}
+  .main-summary{padding-top: 34px;}
 }
