@@ -120,18 +120,19 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .protocol-character::before{width: 20px;height: 10px;background:  url(../img/protocol-character-icon.png) 0 0 no-repeat;position: absolute;left: 10px;top: 0;content: ''}
 .protocol{padding: 40px 0;}
 .protocol .row > div{margin-bottom: 40px;}
-.classroom{height: 240px;background: #000 url(../img/classroom-bg.png) center top no-repeat;}
+.classroom{background: #fff url(../img/classroom-bg.png) center top no-repeat;}
 .classroom h1{text-align: left}
+.classroom-tit{margin-top: 40px;}
 .classroom-tit li{width: 49%;border: 1px solid #5dad92;text-align: center;line-height: 120px;background-color: #fff;border-radius: 0;float: right;}
 .classroom-tit li:first-child{margin-left: 0;float: left;}
 .classroom-tit li.active{background-color: #5dad92;}
 .classroom-tit .nav-tabs>li.active>a{background-color: transparent;color: #fff;border: none;}
 .classroom-tit .nav-tabs>li>a{color: #5dad92;border: none;}
-
+.classroom-content{height: 124px;}
 .classroom-list{padding: 30px 0;}
 
 .classroom-list h2{font-size: 24px;color: #f0f0f0;}
-
+.classroom-list{}
 
 
 
