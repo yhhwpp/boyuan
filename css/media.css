@@ -34,5 +34,8 @@
     .main-summary-content .nav-tabs li{margin-bottom: 20px;}
     .main-summary-content .tab-pane{padding: 0;}
     .main-summary-content .tab-pane h2,.main-summary-content .tab-pane h3{text-align: center;margin-top: 10px;}
-    .classroom-content{height: 80px}
+    .classroom-content{height: 180px}
+    .classroom h1{font-size: 36px;}
+    .classroom-tit h3{font-size:18px;}
+    .classroom-tit p {font-size: 12px;}
 }
