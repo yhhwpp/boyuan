@@ -1,5 +1,6 @@
 
 @media (max-width: 768px) {
+    .main{padding-top: 75px;}
     .navbar-nav{margin-top: 0;}
     .navbar-collapse{margin-top: 0;}
     .navbar-header{margin-top: 8px;}
@@ -33,4 +34,5 @@
     .main-summary-content .nav-tabs li{margin-bottom: 20px;}
     .main-summary-content .tab-pane{padding: 0;}
     .main-summary-content .tab-pane h2,.main-summary-content .tab-pane h3{text-align: center;margin-top: 10px;}
+    .classroom-content{height: 80px}
 }
