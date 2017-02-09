@@ -85,9 +85,10 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .footer-nav-phone a{color: #a2a2a2;padding: 0 15px;font-size: 16px;}
 .footer-tel-phone{text-align: center;color: #a2a2a2;font-size: 20px;padding: 10px 0 20px 0;}
 .main{padding-top: 122px;}
-.main-top-nav{text-align: right;background-color: rgba(0, 0, 0, 0.2);margin-bottom: -60px;position: relative;}
+.main-top-nav{text-align: right;background-color: rgba(0, 0, 0, 0.1);margin-bottom: -60px;position: relative;height: 60px;overflow: hidden;}
 .main-top-nav a{color: #fff;font-size: 14px;padding: 0 10px;line-height: 60px;}
-.main-top-nav a.cur{color: #ffea7f;}
+.main-top-nav a.cur{color: #5dad92;}
+
 .main-summary{padding-top: 116px;}
 .main-summary-all{background: #000 url(../img/main-nav-bg.jpg) center top no-repeat;-webkit-background-size: contain;background-size: contain;}
 .main-summary h1{font-size: 60px;text-align: center;color: #fff;font-weight: bold;line-height: 1.3;}
@@ -143,11 +144,11 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .classroom-list .panel-body::before{position: absolute;content: '';width: 6px;height: 6px;background-color: #5dad92;left: 0;top: 23px;border-radius: 50%}
 .classroom-tit h3{font-size: 24px;}
 .classroom-list h2{color: #5dad92;font-size: 24px;}
+.start-calc{height: 480px;background:  url(../img/calc-bg.png) center top no-repeat;}
 
-
-
-
-
+.start-calc{text-align: center;overflow: hidden;}
+.start-calc h1{font-size: 60px;line-height: 1.4;padding: 80px 0 50px 0;}
+.start-calc p{font-size: 24px;line-height: 1.8;}
 
 
 
