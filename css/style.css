@@ -176,27 +176,20 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .home-info-first input{background-color: #fff;height: 50px;line-height: 50px;font-size: 22px;text-align: right;padding-right: 20px;width: 80%;border: 1px solid #e0e0e0;}
 .home-info-first{border: none;background-color: #fafafa;}
 
-.home-info-tips{font-size: 18px;position: relative;padding-left: 30px;margin-top: 40px;}
+.home-info-tips{font-size: 17px;position: relative;padding-left: 30px;margin-top: 40px;}
 .home-info-tips::before{position: absolute;left: 0;top: 4px;content: '';width: 14px;height: 14px;background-color: #5dad92;display: block;}
-
 .step-next-bt{background-color: #5dad92;font-size: 30px;color: #fff;padding: 25px 0;text-align: center;cursor: pointer;}
 .step-pre-bt{font-size: 30px;color: #5dad92;padding: 25px 0;text-align: center;cursor: pointer;border: 1px solid #5dad92;}
 .step-next{margin-top: 52px;;}
-
 .home-brand-list{position: relative;z-index: 3;}
 .home-brand-con img{border: 2px solid #e0e0e0;}
 .home-brand-list{padding: 30px 0;}
 .home-brand-con{position: relative;cursor: pointer;}
-
 .home-brand-con dl{width: 100%;background-color: rgba(0, 0, 0, 0.8);;color: #fff;padding: 18px 25px;display: none;}
 .home-brand-con dt{font-size: 24px;padding-bottom: 10px;}
-
 .home-brand-con:hover dl{display: block;position: absolute;top: 100%;left: 0;width: 100%;z-index: 3;}
-
 .home-brand-con.cur img{border: 2px solid #5dad92;}
 .home-brand-con{margin-bottom: 35px;}
-
-
 .home-brand-list .cur::after{content: '';display: block;background:  url(../img/right-icon.png) 0 0 no-repeat;width: 20px;height: 20px;right: 12px; bottom: 12px;position: absolute;}
 
 
