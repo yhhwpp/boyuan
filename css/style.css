@@ -176,3 +176,15 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .home-info-first input{background-color: #fff;height: 50px;line-height: 50px;font-size: 22px;text-align: right;padding-right: 20px;width: 80%;border: 1px solid #e0e0e0;}
 .home-info-first{border: none;background-color: #fafafa;}
 
+.home-info-tips{font-size: 18px;position: relative;padding-left: 30px;margin-top: 40px;}
+.home-info-tips::before{position: absolute;left: 0;top: 4px;content: '';width: 14px;height: 14px;background-color: #5dad92;display: block;}
+
+.step-next-bt{background-color: #5dad92;font-size: 30px;color: #fff;padding: 25px 0;text-align: center;cursor: pointer;}
+.step-next{margin-top: 52px;}
+
+
+
+
+
+
+
