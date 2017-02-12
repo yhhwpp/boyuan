@@ -192,4 +192,12 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .home-brand-con{margin-bottom: 35px;}
 .home-brand-list .cur::after{content: '';display: block;background:  url(../img/right-icon.png) 0 0 no-repeat;width: 20px;height: 20px;right: 12px; bottom: 12px;position: absolute;}
 
+.function-list{border: 1px solid #f0f0f0;margin-top: 40px;padding: 20px;}
+.function-list h3{font-size: 24px;}
+.function-list h3 span{color: #5dad92;padding-right: 20px;}
+
+
+
+
+
 
