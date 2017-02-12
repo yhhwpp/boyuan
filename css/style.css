@@ -192,12 +192,36 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .home-brand-con{margin-bottom: 35px;}
 .home-brand-list .cur::after{content: '';display: block;background:  url(../img/right-icon.png) 0 0 no-repeat;width: 20px;height: 20px;right: 12px; bottom: 12px;position: absolute;}
 
-.function-list{border: 1px solid #f0f0f0;margin-top: 40px;padding: 20px;}
-.function-list h3{font-size: 24px;}
+.function-list{border: 1px solid #f0f0f0;margin-top: 40px;padding: 20px 30px 30px 30px;}
+.function-list h3{font-size: 24px;padding-bottom: 10px;}
 .function-list h3 span{color: #5dad92;padding-right: 20px;}
 
+.function{border: 1px solid #f0f0f0;background-color: #fafafa;padding: 18px;overflow: hidden;margin-bottom: 20px;}
+.function .function-img{padding-left: 0;}
+.function img{width: 100%;border-radius: 100%}
+.function .function-txt{padding-right: 0;padding-left: 0;}
+.function h4{font-size: 16px;position: relative;font-weight: bold;}
+.function h4::after{content: '';width: 18px;height: 18px;background:  url(../img/i-icon.png) 0 0 no-repeat;position: absolute;right:-3px;top: -2px;}
+.function-ctrl{background-color: #ffffff;padding: 1px;height: 28px;line-height: 28px;position: relative;}
 
+.function-bt{position: absolute;display: block;width: 28px;height: 28px;line-height: 28px;text-align: center; background-color: #f0f0f0;color: #a3a3a3;}
+.function-subtract{left: 1px;top: 1px;z-index: 2;}
+.function-add{right: 0;top: 1px;z-index: 2;}
+.function-input{position: absolute;width: 100%;height: 28px;line-height: 28px;border: none;text-align: center;}
+.function-isadd a{display: block;width: 48px;height: 32px;line-height: 32px;text-align: center;font-size: 13px;}
 
+.function-isadd a.yes{color: #5dad92; border: 1px solid #5dad92;}
+.function-isadd a.no{color: #cccccc;border: 1px solid #cccccc;}
+.function-list .col-md-3{padding-right: 10px;padding-left: 10px;}
+
+.calc-result{width: 178px;border: 1px solid #f0f0f0;padding: 16px;position: fixed;top: 20px;left: 0;background-color: #fff;}
+.calc-result h3{font-size: 24px;}
+.calc-result p{font-size: 16px;}
+.calc-result .num{font-size: 48px;color: #5dad92;font-weight: bold;text-align: right;padding: 15px 0;}
+.calc-result .num-unin{color: #5dad92;text-align: right;display: block;}
+.calc-result a{display: block;text-align: center;height: 32px;line-height: 32px;margin-top: 8px;}
+.calc-result .refresh{background-color: #5dad92;color: #fff;}
+.calc-result .save{border:1px solid #5dad92;color: #5dad92;}
 
 
 
