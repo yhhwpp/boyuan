@@ -257,9 +257,10 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .flow-con h1{font-size: 48px;color: #5dad92;text-align: center;padding: 50px 0;}
 
 
-
-
-
-
+.combo{background:  url(../img/combo-bg.jpg) center center no-repeat;text-align: center;color: #fff;padding: 50px 0;}
+.combo h1{font-weight: bold;font-size: 60px;padding: 30px 0;line-height: 1.2;margin-bottom: 0;}
+.combo p{font-size: 24px;line-height: 1.4;}
+.combo-bg{background-color: #333333;}
+.combo-select{background-color: #292929;color: #fff;}
 
 
