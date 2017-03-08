@@ -1,1 +1,41 @@
-*{padding: 0;margin: 0;}
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,img,input,lengend,li,ol,p,pre,span,td,textarea,th,ul{margin:0;padding:0}
+fieldset,img{border:0 none}
+body,button,input,select,textarea{outline:0;font:14px/150% Verdana,'\5FAE\8F6F\96C5\9ED1'}
+input,select{vertical-align:middle}
+ol,ul{list-style:none outside none}
+h1,h2,h3,h4{font-weight:400;}
+a{color:#666}
+a,a:hover{text-decoration:none}
+a:hover{color:#bf1c21}
+.fl{float:left}
+.fl,.fr{display:inline}
+.fr{float:right}
+.fix:after{clear:both;display:block;visibility:hidden;height:0;content:" ";font-size:0}
+.fix{display:inline-block}
+html[xmlns] .fix{display:block}
+* html .fix{height:1%}
+.clear{clear:both;overflow:hidden;height:0;}
+button{cursor:pointer;border: none;}
+.w{margin:0 auto;width:1180px;}
+*{transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,color ease-in-out .15s,background-color ease-in-out .15s;box-sizing: border-box}
+
+
+.header{height: 150px;background:  url(../img/headbg.gif);}
+.container{width: 1200px;margin: 0 auto}
+.logo{float: left;padding-right: 30px;margin-top: 20px;border-right: 1px solid #060608;height: 108px;}
+.slogan{height: 108px;border-left: 1px dotted #1e1d1c; padding: 32px 0 0 28px;float: left;margin-top: 20px;}
+.tel{float: right;width: 226px;height: 45px;background:  url(../img/tel.png) 0 0 no-repeat;padding-right: 52px;text-align: right;margin-top: 45px;color: #8f763b;}
+
+
+.nav{ height:45px; line-height:45px; background:  url(../img/navbg.jpg) center top no-repeat;}
+.nav ul{float: right;}
+
+.nav a{color:#d5c085; font-size: 15px;}
+.nav .nLi{float:left;position:relative;}
+.nav .nLi h3{float:left;}
+.nav .nLi h3 a{display:block;padding:0 26px;color: #000000;font-weight: bold;background:  url(../img/navli.gif) right center no-repeat;}
+.nav .sub{display:none;width: 145px;left:0;top: 45px;position:absolute;line-height:26px;padding:5px 0;background: #141416;}
+.nav .sub li{zoom:1;text-align: center;border-top: 1px solid #000;}
+.nav .sub a{display:block;padding: 4px 10px;color: #d5c085;font-size: 14px;}
+.nav .sub a:hover{background:#18181a; color:#d5c085;}
+.nav .on h3 a{background:#18181a; color:#d5c085;}
