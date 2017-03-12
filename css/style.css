@@ -18,15 +18,11 @@ html[xmlns] .fix{display:block}
 button{cursor:pointer;border: none;}
 .w{margin:0 auto;width:1180px;}
 *{transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,color ease-in-out .15s,background-color ease-in-out .15s;box-sizing: border-box}
-
-
 .header{height: 150px;background:  url(../img/headbg.gif);}
 .container{width: 1200px;margin: 0 auto}
 .logo{float: left;padding-right: 30px;margin-top: 20px;border-right: 1px solid #060608;height: 108px;}
 .slogan{height: 108px;border-left: 1px dotted #1e1d1c; padding: 32px 0 0 28px;float: left;margin-top: 20px;}
 .tel{float: right;width: 226px;height: 45px;background:  url(../img/tel.png) 0 0 no-repeat;padding-right: 52px;text-align: right;margin-top: 45px;color: #8f763b;}
-
-
 .nav{ height:45px; line-height:45px; background:  url(../img/navbg.jpg) center top no-repeat;}
 .nav ul{float: right;}
 .nav a{color:#d5c085; font-size: 15px;}
@@ -38,9 +34,6 @@ button{cursor:pointer;border: none;}
 .nav .sub a{display:block;padding: 4px 10px;color: #d5c085;font-size: 14px;}
 .nav .sub a:hover{background:#18181a; color:#d5c085;}
 .nav .on h3 a{background:#18181a; color:#d5c085;}
-
-
-
 .fullSlide{width:100%;position:relative;height: 600px;background:#000;}
 .fullSlide .bd{margin:0 auto; position:relative; z-index:0; overflow:hidden;}
 .fullSlide .bd ul{width:100% !important;}
@@ -48,8 +41,8 @@ button{cursor:pointer;border: none;}
 .fullSlide .bd li a{display:block; height:600px;}
 .fullSlide .slidebt{position: absolute;text-align: center;width: 100%;bottom: -18px}
 .fullSlide .slidebt a{display: inline-block;width: 27px;height: 27px;background:  url(../img/bannerbt.png) 0 0 no-repeat;}
-
 .fullSlide .slidebt .next{background-position: -33px 0;}
+
 
 .pro{padding: 60px 0;}
 .pro-tit{width: 536px; margin: 0 auto;}
@@ -64,14 +57,22 @@ button{cursor:pointer;border: none;}
 .li3 .pro-con-img{background-image: url(../img/pro3bg.png);}
 .pro-con h3{text-align: center;font-size: 18px;font-weight: bold;padding: 14px 0;margin-top: 5px;color: #000}
 
-.news{padding-top: 36px;padding-bottom: 16px;}
-.slideTxtBox{padding: 18px 20px;overflow: hidden;}
-.slideTxtBox .hd{position: relative;width: 364px;float: right;overflow: hidden;height: 310px;}
-.slideTxtBox .hd ul li{cursor:pointer;height: 56px;background: #8a8a8a;line-height: 56px;color: #fff;padding-left: 60px;margin-bottom: 7px;}
-.slideTxtBox .hd ul li.on{background: #ca141d url(../images/sprite1.png) -83px -132px no-repeat;}
+.slideTxtBox{overflow: hidden;}
+.slideTxtBox .hd{position: relative;width: 290px;float: right;overflow: hidden;float: right;}
+.slideTxtBox .hd ul li{cursor:pointer;width: 290px; margin-bottom: 3px;}
+.slideTxtBox .hd ul li.on{border: 2px solid #000;}
+.slideTxtBox .hd ul li.on img{width: 286px;}
 .slideTxtBox .hd ul li a{color: #fff}
-.slideTxtBox .bd{float: left;}
+.slideTxtBox .bd{float: left;width: 900px;overflow: hidden;}
 .slideTxtBox .bd li{float: left;margin-right: 5px;}
+.slideTxtBox .hd img{width: 290px;height: 110px;display: block;}
+.case-tit{width: 386px;border-top: 1px solid #000; margin: 0 auto;text-align: center;font-size: 24px;padding: 35px 0;}
+.case-tit h2 span{font-size: 60px;font-family: 'Aparajita', Arial, sans-serif;padding-right: 24px; }
+.case{padding-bottom: 58px;}
+
+
+
+.honor{background-color: #141416;padding: 35px}
 
 
 
