@@ -73,14 +73,63 @@ button{cursor:pointer;border: none;}
 
 
 .honor{background-color: #141416;padding: 35px}
+.honor-tit{width: 534px; margin: 0 auto;text-align: center;}
+.honor-tit p{text-transform:capitalize; font-size: 18px;color: #edc248;padding-top: 30px;border-top: 1px solid #edc248; font-family: 'Aparajita', Arial, sans-serif;}
+.honor-tit h3{font-size: 30px;margin: 0 auto;width: 136px;background-color: #141416;color: #edc248;margin-bottom: -7px;position: relative}
+ 
+
+.multipleColumn{overflow:hidden;position:relative;}
+.multipleColumn .hd{padding-top: 15px;}
+.multipleColumn .hd ul{zoom:1;width: 100%;text-align: center;}
+.multipleColumn .hd ul li{width:9px;height:9px;overflow:hidden;margin-right: 9px;text-indent:-999px;cursor:pointer;background-color: #e0e0e0;float: none;display: inline-block;border-radius: 50%;}
+.multipleColumn .hd ul li.on{background-position:0 0;background: #e60012;}
+.multipleColumn .bd{overflow:hidden;padding-top: 10px;}
+.multipleColumn .bd ul{overflow:hidden; zoom:1; width:1180px; float:left;}
+.multipleColumn .bd ul li{margin: 5px 8px;float:left;overflow:hidden;text-align:center;}
+.multipleColumn .bd ul li .pic img{width:220px; height:100px; display:block;}
+.honor a.more{display: block;width: 156px;height: 30px;line-height: 30px;border-radius: 20px;border: 1px solid #4c4c4e;text-align: center; color: #fff; margin: 20px auto 0}
+
+.com{padding: 46px 8px; overflow: hidden;}
+.com img{display: block;float: left;}
+.com-tit{width: 400px;text-align: right; float: right; overflow: hidden; padding: 20px 0}
+.com-con{float: right;width: 760px;}
+.com-tit p{font-family: 'Aparajita', Arial, sans-serif;border-top: 1px solid #000; color: #aeaeae;padding-top: 20px;font-size: 18px;}
+
+.com-tit h3{font-size: 30px;background-color: #fff;position: relative;margin-bottom:-10px;width: 134px;margin-left: 268px;}
+.com-txt p {padding: 12px 0;line-height: 1.8;color: #333}
 
 
+.news{background-color: #efefef; padding: 56px 0;overflow: hidden;}
+
+.news-tit{width: 534px; margin: 0 auto;text-align: center;}
+.news-tit p{text-transform:capitalize; font-size: 18px;color: #aeaeae;padding-top: 30px;border-top: 1px solid #000; font-family: 'Aparajita', Arial, sans-serif;}
+.news-tit h3{font-size: 30px;margin: 0 auto;background-color: #efefef;width: 136px;margin-bottom: -7px;position: relative;}
+ 
+.news-con {padding-top: 20px;}
+.news-con li{float: left;width: 368px;height: 378px; position: relative;margin-right: 48px;}
+.news-con img{display: block; margin-bottom: 5px}
+.news-con h3{font-size: 16px; position: relative;padding: 12px 0}
+.news-con h3::before{display: block; position: absolute; width: 84px;height: 2px;background-color: #000; content: ''; left:0; bottom:0; }
+.news-con p{color: #666;padding-top: 20px;}
+.news-con a.more{border-radius:17px;display: block;width: 112px;height: 30px;border: 1px solid #bfbfbf; line-height: 30px;text-align: center; color: #000; position: absolute; bottom: 0; left: 0}
+.news-con li:last-child{margin-right: 0;}
+.news-con a.more:hover{background-color: #ca9c1d;border-color: #ca9c1d; color: #fff}
+.footer{background:  url(../img/headbg.gif);}
 
 
+.footer-nav{border-bottom: 1px dotted #282621;height: 51px;line-height: 51px;text-align: center;color: #d5d3d3;}
+.footer-nav a{ color: #d5d3d3; padding: 0 12px}
 
+.footer-con{overflow: hidden; color: #848484}
+.footer-con img{ display: block; float: left}
 
+.footer-con .footer-txt{padding:40px ;line-height: 1.8;float: left;height: 174px;border-left: 1px dotted #282621; border-right: 1px dotted #282621;width: 754px }
+.footer-con .footer-tel{ float: left}
+.footer-con img{ display: block; padding: 30px 56px}
 
-
-
-
-
+.footer-tel{width: 222px;background:  url(../img/footer-tel.png) center top no-repeat;text-align: center;margin-top: 35px;padding-top: 48px;}
+.footer-tel span{ display: block;font-size: 24px;}
+.links{border-top: 1px dotted #282621; padding: 16px 0}
+.links-tit{float: left;font-size: 18px; color: #d5d3d3;padding-right: 15px;}
+.links-tit span{color: #aeaeae;font-family: 'Aparajita', Arial, sans-serif;}
+.links-cona:hover{color: #fff}
