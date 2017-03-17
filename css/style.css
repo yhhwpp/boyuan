@@ -70,13 +70,10 @@ button{cursor:pointer;border: none;}
 .case-tit h2 span{font-size: 60px;font-family: 'Aparajita', Arial, sans-serif;padding-right: 24px; }
 .case{padding-bottom: 58px;}
 
-
-
 .honor{background-color: #141416;padding: 35px}
 .honor-tit{width: 534px; margin: 0 auto;text-align: center;}
 .honor-tit p{text-transform:capitalize; font-size: 18px;color: #edc248;padding-top: 30px;border-top: 1px solid #edc248; font-family: 'Aparajita', Arial, sans-serif;}
 .honor-tit h3{font-size: 30px;margin: 0 auto;width: 136px;background-color: #141416;color: #edc248;margin-bottom: -7px;position: relative}
- 
 
 .multipleColumn{overflow:hidden;position:relative;}
 .multipleColumn .hd{padding-top: 15px;}
@@ -94,17 +91,14 @@ button{cursor:pointer;border: none;}
 .com-tit{width: 400px;text-align: right; float: right; overflow: hidden; padding: 20px 0}
 .com-con{float: right;width: 760px;}
 .com-tit p{font-family: 'Aparajita', Arial, sans-serif;border-top: 1px solid #000; color: #aeaeae;padding-top: 20px;font-size: 18px;}
-
 .com-tit h3{font-size: 30px;background-color: #fff;position: relative;margin-bottom:-10px;width: 134px;margin-left: 268px;}
 .com-txt p {padding: 12px 0;line-height: 1.8;color: #333}
 
 
 .news{background-color: #efefef; padding: 56px 0;overflow: hidden;}
-
 .news-tit{width: 534px; margin: 0 auto;text-align: center;}
 .news-tit p{text-transform:capitalize; font-size: 18px;color: #aeaeae;padding-top: 30px;border-top: 1px solid #000; font-family: 'Aparajita', Arial, sans-serif;}
 .news-tit h3{font-size: 30px;margin: 0 auto;background-color: #efefef;width: 136px;margin-bottom: -7px;position: relative;}
- 
 .news-con {padding-top: 20px;}
 .news-con li{float: left;width: 368px;height: 378px; position: relative;margin-right: 48px;}
 .news-con img{display: block; margin-bottom: 5px}
@@ -115,21 +109,59 @@ button{cursor:pointer;border: none;}
 .news-con li:last-child{margin-right: 0;}
 .news-con a.more:hover{background-color: #ca9c1d;border-color: #ca9c1d; color: #fff}
 .footer{background:  url(../img/headbg.gif);}
-
-
 .footer-nav{border-bottom: 1px dotted #282621;height: 51px;line-height: 51px;text-align: center;color: #d5d3d3;}
 .footer-nav a{ color: #d5d3d3; padding: 0 12px}
-
 .footer-con{overflow: hidden; color: #848484}
 .footer-con img{ display: block; float: left}
-
 .footer-con .footer-txt{padding:40px ;line-height: 1.8;float: left;height: 174px;border-left: 1px dotted #282621; border-right: 1px dotted #282621;width: 754px }
 .footer-con .footer-tel{ float: left}
 .footer-con img{ display: block; padding: 30px 56px}
-
 .footer-tel{width: 222px;background:  url(../img/footer-tel.png) center top no-repeat;text-align: center;margin-top: 35px;padding-top: 48px;}
 .footer-tel span{ display: block;font-size: 24px;}
 .links{border-top: 1px dotted #282621; padding: 16px 0}
 .links-tit{float: left;font-size: 18px; color: #d5d3d3;padding-right: 15px;}
 .links-tit span{color: #aeaeae;font-family: 'Aparajita', Arial, sans-serif;}
 .links-cona:hover{color: #fff}
+
+.stove-tit{width: 400px;text-align: right; float: right; overflow: hidden; padding: 20px 0}
+.stove-tit p{font-family: 'Aparajita', Arial, sans-serif;border-top: 1px solid #000; color: #aeaeae;padding-top: 20px;font-size: 18px;}
+.stove-tit h3{font-size: 30px;background-color: #fff;position: relative;margin-bottom:-10px;width: 134px;margin-left: 268px;}
+.stove{padding: 50px 0; overflow: hidden}
+.stove-con{ padding: 0 160px;position: relative;margin-top: 40px;}
+.stove-circle{ padding: 240px 65px; border:1px solid #272727; border-radius: 100%;width: 640px;height: 640px;line-height: 2.0;}
+.stove-left-circle{width: 280px;height: 280px;background-color: #fff;position: absolute; left: 0; top: 0;}
+.stove-left-con{float: right;margin-top: 30px;color:#fff; width: 228px;height: 228px;background-color: #edc248;font-size: 24px;line-height: 228px;text-align: center;border-radius: 100%}
+.stove-pic{width: 395px;position: absolute;left: 730px;top: 230px;}
+
+.why h4{width: 324px;height: 56px;line-height: 56px;text-align: center;background-color: #000;color: #edc248;font-size: 24px;border-radius: 35px}
+.why ul{overflow: hidden; padding: 40px 0}
+.why img{display: block;float: left;margin-right: 24px;}
+.why h5{font-size: 30px;font-weight: bold;padding-bottom: 16px;}
+.why li{float: left;width: 558px;margin-left: 84px;}
+.why li:first-child{margin-left: 0;}
+
+.so{background-color: #ededed; padding: 40px 0;margin-bottom: 55px;}
+.so-top{text-align: center; padding: 0 0}
+
+.so-con{border-top: 1px solid #dfdfdf; padding: 30px 0;margin-top: 20px;}
+.so-con h5{font-size: 30px;font-weight: bold;text-align: center; padding:30px 0}
+.so-con img{display: block; margin: 0 auto}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
