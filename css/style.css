@@ -56,6 +56,11 @@ button{cursor:pointer;border: none;}
 .li2 .pro-con-img{background-image: url(../img/pro2bg.png);}
 .li3 .pro-con-img{background-image: url(../img/pro3bg.png);}
 .pro-con h3{text-align: center;font-size: 18px;font-weight: bold;padding: 14px 0;margin-top: 5px;color: #000}
+.pro-con li:hover{background-image: url(../img/probghover.png);}
+
+.li1:hover .pro-con-img{background-image: url(../img/pro1hoverbg.png);}
+.li2:hover .pro-con-img{background-image: url(../img/pro2hoverbg.png);}
+.li3:hover .pro-con-img{background-image: url(../img/pro3hoverbg.png);}
 
 .slideTxtBox{overflow: hidden;}
 .slideTxtBox .hd{position: relative;width: 290px;float: right;overflow: hidden;float: right;}
