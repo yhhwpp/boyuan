@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>博远智家网</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header class="navbar navbar-static-top navbar-wrapper">
+        <div class="container">
+            <div class="clearfix">
+                <div id="topNav" class="pull-right visible-lg">
+                    <a href="" class="active">简体中文</a>|
+                    <a href="">English</a>|
+                    <a href="">日本语</a>| <span class="tel">欢迎咨询 400 834 0005</span>
+                </div>
+            </div>
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="../" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="">首  页</a>
+                    </li>
+                    <li>
+                        <a href="">智能家居</a>
+                    </li>
+                    <li>
+                        <a href="">超值套餐</a>
+                    </li>
+                    <li>
+                        <a href="">智能商城</a>
+                    </li>
+                    <li>
+                        <a href="">经典案例</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right visible-lg">
+                    <li><input type="text" name="" placeholder="请输入您要查找的内容" class="search-txt"><button class="search"></button></li>
+                    <li class="line"></li>
+                    <li class="shopping-cart"></li>
+                    <li><button type="button" href="" class="login btn">登陆</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-top-nav calc-nav">
+            <div class="container">
+                <a href="">功能概述</a>
+                <a href="">演示模块</a>
+                <a href="" class="cur">智能小课堂</a>
+                <a href="">造价运算</a>
+                <a href="">服务流程</a>
+            </div>
+        </div>
+
+        <div class="calc">
+            <div class="container">
+                <h1>造价运算</h1>
+            </div>
+        </div>
+        <div class="calc-cont container">
+            <div class="step">
+                <div class="row">
+                    <div class="col-xs-3 step-default step-actived">
+                        居住信息
+                    </div>
+                    <div class="col-xs-3 step-default">
+                        选品牌
+                    </div>
+                    <div class="col-xs-3 step-default">
+                        选功能
+                    </div>
+                    <div class="col-xs-3 step-default">
+                        预算结果
+                    </div>
+                </div>
+            </div>
+            <div class="home-info">
+                <h2><span>居住信息</span></h2>
+                <div class="row">
+                    <div class="home-info-list">
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="home-info-cont clearfix">
+                                <div class="col-xs-6">
+                                    <img src="img/home-info1.jpg" alt="">
+                                </div>
+                                <div class="col-xs-6">
+                                    <h3><span>居室面积</span>智能控制实际面积</h3>
+                                    <div class="home-info-contrl home-info-first">
+                                        <input type="text" value="100" /><strong>㎡</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="home-info-cont">
+                                <img src="img/home-info2.jpg" alt="">
+                                <h3><span>卧室数量</span></h3>
+                                <div class="home-info-contrl">
+                                    <div class="home-info-input col-xs-10">
+                                        <input type="text" value="3" />
+                                    </div>
+                                    <div class="home-info-num col-xs-2">
+                                        <a type="button" class="add">+</a>
+                                        <a type="button" class="subtract">-</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="home-info-cont">
+                                <img src="img/home-info3.jpg" alt="">
+                                <h3><span>客厅数量</span></h3>
+                                <div class="home-info-contrl">
+                                    <div class="home-info-input col-xs-10">
+                                        <input type="text" value="1" />
+                                    </div>
+                                    <div class="home-info-num col-xs-2">
+                                        <a type="button" class="add">+</a>
+                                        <a type="button" class="subtract">-</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="home-info-cont">
+                                <img src="img/home-info5.jpg" alt="">
+                                <h3><span>厨房数量</span></h3>
+                                <div class="home-info-contrl">
+                                    <div class="home-info-input col-xs-10">
+                                        <input type="text" value="1" />
+                                    </div>
+                                    <div class="home-info-num col-xs-2">
+                                        <a type="button" class="add">+</a>
+                                        <a type="button" class="subtract">-</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="home-info-cont">
+                                <img src="img/home-info4.jpg" alt="">
+                                <h3><span>卫生间数量</span></h3>
+                                <div class="home-info-contrl">
+                                    <div class="home-info-input col-xs-10">
+                                        <input type="text" value="2" />
+                                    </div>
+                                    <div class="home-info-num col-xs-2">
+                                        <a type="button" class="add">+</a>
+                                        <a type="button" class="subtract">-</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <div class="col-xs-12 home-info-ad-action">
+                            <div class="home-info-ad">添加更多房间</div>
+                        </div>
+                        <div class="home-info-ad-more">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="home-info-cont">
+                                    <img src="img/home-info6.jpg" alt="">
+                                    <h3><span>玄关数量</span></h3>
+                                    <div class="home-info-contrl">
+                                        <button class="has">有</button>
+                                        <button class="no">无</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="home-info-cont">
+                                    <img src="img/home-info7.jpg" alt="">
+                                    <h3><span>阳台数量</span></h3>
+                                    <div class="home-info-contrl">
+                                        <div class="home-info-input col-xs-10">
+                                            <input type="text" value="1" />
+                                        </div>
+                                        <div class="home-info-num col-xs-2">
+                                            <a type="button" class="add">+</a>
+                                            <a type="button" class="subtract">-</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="home-info-cont">
+                                    <img src="img/home-info8.jpg" alt="">
+                                    <h3><span>餐厅数量</span></h3>
+                                    <div class="home-info-contrl">
+                                        <div class="home-info-input col-xs-10">
+                                            <input type="text" value="1" />
+                                        </div>
+                                        <div class="home-info-num col-xs-2">
+                                            <a type="button" class="add">+</a>
+                                            <a type="button" class="subtract">-</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="home-info-cont">
+                                    <img src="img/home-info9.jpg" alt="">
+                                    <h3><span>走廊数量</span></h3>
+                                    <div class="home-info-contrl">
+                                        <div class="home-info-input col-xs-10">
+                                            <input type="text" value="1" />
+                                        </div>
+                                        <div class="home-info-num col-xs-2">
+                                            <a type="button" class="add">+</a>
+                                            <a type="button" class="subtract">-</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="home-info-cont">
+                                    <img src="img/home-info10.jpg" alt="">
+                                    <h3><span>更衣间数量</span></h3>
+                                    <div class="home-info-contrl">
+                                        <div class="home-info-input col-xs-10">
+                                            <input type="text" value="1" />
+                                        </div>
+                                        <div class="home-info-num col-xs-2">
+                                            <a type="button" class="add">+</a>
+                                            <a type="button" class="subtract">-</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="home-info-cont">
+                                    <img src="img/home-info11.jpg" alt="">
+                                    <h3><span>储藏间数量</span></h3>
+                                    <div class="home-info-contrl">
+                                        <div class="home-info-input col-xs-10">
+                                            <input type="text" value="1" />
+                                        </div>
+                                        <div class="home-info-num col-xs-2">
+                                            <a type="button" class="add">+</a>
+                                            <a type="button" class="subtract">-</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="home-info-cont">
+                                    <img src="img/home-info10.jpg" alt="">
+                                    <h3><span>楼梯数量</span></h3>
+                                    <div class="home-info-contrl">
+                                        <div class="home-info-input col-xs-10">
+                                            <input type="text" value="1" />
+                                        </div>
+                                        <div class="home-info-num col-xs-2">
+                                            <a type="button" class="add">+</a>
+                                            <a type="button" class="subtract">-</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <!--<div class="home-info-tips">
+                    <p>居室内其他如：餐厅、厨房等普遍为 1 间的房间，在此造价运算中均默认为 1 间。</p>
+                </div>-->
+            </div>
+            <div class="step-next">
+                <div class="col-xs-3 col-xs-offset-9 step-next-bt">
+                    下一步
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="visible-xs visible-sm clearfix">
+                <div class="col-xs-6">
+                    <a href="" class="footer-shop-bt">
+                        <img src="img/icon-shop3.png" alt=""> 微信公众号
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="" class="footer-shop-bt">
+                        <img src="img/icon-shop4.png" alt=""> 官网微博
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="" class="footer-shop-bt">
+                        <img src="img/icon-shop1.png" alt=""> 京东专营店
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="" class="footer-shop-bt">
+                        <img src="img/icon-shop2.png" alt=""> 天猫专营店
+                    </a>
+                </div>
+                <div class="footer-nav-phone">
+                    <a href="">关于我们</a>|
+                    <a href="">网站条款</a>|
+                    <a href="">帮助中心</a>
+                </div>
+                <div class="footer-tel-phone">
+                    服务热线:400 834 0005
+                </div>
+            </div>
+            <div class="visible-lg visible-md clearfix">
+                <div class="footer-nav">
+                    <dl>
+                        <dt>关于我们</dt>
+                        <dd><a href="">经典案例</a></dd>
+                        <dd><a href="">自主品牌</a></dd>
+                        <dd><a href="">联系我们</a></dd>
+                        <dd><a href="">加入我们</a></dd>
+                        <dd><a href="">媒体报道</a></dd>
+                        <dd><a href="">城市合伙人</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>商城&服务</dt>
+                        <dd><a href="">全部单品</a></dd>
+                        <dd><a href="">全部套餐</a></dd>
+                        <dd><a href="">售后服务</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>网站条款</dt>
+                        <dd><a href="">版权声明</a></dd>
+                        <dd><a href="">隐私保护</a></dd>
+                        <dd><a href="">免责条款</a></dd>
+                        <dd><a href="">友情链接</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><a href="">常见问题</a></dd>
+                        <dd><a href="">售后承诺</a></dd>
+                        <dd><a href="">使用帮助</a></dd>
+                    </dl>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-icon">
+                        <img src="img/wx.png" alt="">
+                        <img src="img/weibo.png" alt="">
+                    </div>
+                    <div class="footer-shop">
+                        <a href="" class="footer-shop-bt">
+                            <img src="img/icon-shop2.png" alt=""> 天猫专营店
+                        </a>
+
+                        <a href="" class="footer-shop-bt">
+                            <img src="img/icon-shop1.png" alt=""> 京东专营店
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="footer-tel">
+                        <p>服务专线</p>
+                        <p class="footer-tel-num">400 834 0005</p>
+                        <p>周一至周五 9:00-17:30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <p>Powered by discuz!x3 Copyright by <br>博远智家（北京）科技有限公司 版权所有</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p>博远智家（北京）科技有限公司<br>地址：北京市朝阳区光华路SOHO2-3Q大厦</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
