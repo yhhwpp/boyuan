@@ -48,6 +48,10 @@
     .intel-classroom p{display: none}
     .by-news-list-con li a{font-size: 16px;}
     .by-news-list-con .date{float: right;}
+
+    .news-con h5, .news-con p{white-space: nowrap;width: 100%;overflow: hidden; text-overflow:ellipsis;margin: 0;padding: 4px}
+    .news-con h5{font-size: 18px;margin: 0}
+    .news-con .first .txt {padding: 10px}
 }
 @media (min-width: 768px){
     .main-xianxia-txt-l{padding: 28px 35px;text-align: center;}

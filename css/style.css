@@ -336,10 +336,19 @@ width: 100%;height: 100%;left: 0;top: 0;}
 .hezuo-cover{display: none;position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.5); color: #fff;padding: 40px;font-size: 18px;line-height: 1.8;}
 .hezuo-cover h2{font-size: 35px;}
 .hezuo-list:hover .hezuo-cover{ display: block}
-.news-con h5{font-size: 24px; color: #5c5c5c}
+.news-con ul{list-style: none}
+.news-con h5, .news-con h5 a{font-size: 24px; color: #5c5c5c}
 .news-con{padding: 40px 0;}
 .news-con span.date{display: block; color: #a3a3a3}
-.news-con li{padding: 15px 0;}
+.news-con li{padding: 18px 0;border-bottom: 1px solid #e0e0e0;margin-top: 6px;}
+
+.news-con .first {position: relative;padding: 0; color: #fff}
+.news-con .first h5{color: #fff}
+.news-con .first img{display: block;}
+.news-con .first .txt{position: absolute; bottom: 0; left:0; width: 100%;background:rgba(0, 0, 0, 0.5); padding: 20px 56px}
+
+
+
 .news-detail-border{height: 60px;background-color: #5dad92;}
 .news-detail .date{color: #a3a3a3;padding: 20px 0}
 .news-detail .date span{padding-right: 40px;font-size: 14px;}
